@@ -1,0 +1,4 @@
+/node_modules
+/files
+sourceProjectServiceAccountKey.json
+destinationProjectServiceAccountKey.json
