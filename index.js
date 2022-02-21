@@ -14,7 +14,7 @@ async function runBackupScript() {
     await initializeFirebaseAdminSdkForDestinationProject();
 
     console.log("Starting restore process");
-    await restoreBackup([ 'testimonies', 'users', 'wPmwNKi9KJxqjnO5A5z0' ]);
+    await restoreBackup(collections);
     console.log("Completed successfully");
 
 }
